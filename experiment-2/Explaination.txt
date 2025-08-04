@@ -1,0 +1,6 @@
+In this code, I first set a light gray background for the page and used the Arial font. 
+Then, I created a centered box using a <div>. 
+This box has a gray background, 30px padding, rounded corners, and centered text. 
+Inside this box, I added a heading (<h1>) to display the balance in green. 
+Below the heading, I included two buttons, a green one for Deposit and a red one for Withdraw. 
+Both buttons have padding, full width.
