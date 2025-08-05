@@ -1,6 +1,66 @@
-In this code, I first set a light gray background for the page and used the Arial font. 
-Then, I created a centered box using a <div>. 
-This box has a gray background, 30px padding, rounded corners, and centered text. 
-Inside this box, I added a heading (<h1>) to display the balance in green. 
-Below the heading, I included two buttons, a green one for Deposit and a red one for Withdraw. 
-Both buttons have padding, full width.
+1. <html>, <head>, <body>  
+What it is: These are the main building blocks of the page.
+
+What it does:  
+
+<head> holds the title for the browser tab ("Simple Bank Page").  
+
+<body> is the main container for everything we see. This time, it has a style attribute.  
+
+2. The style Attribute  
+What it is: The style attribute provides instructions for how an element should look. It allows you to add colors, spacing, and change fonts directly inside an HTML tag. This is called inline styling.
+
+What the <body> style does:  
+
+background-color: #f0f0f0;: Sets the entire page background to a light grey color.  
+
+display: flex; justify-content: center; align-items: center;: These three properties work together to center whatever is inside the <body> (our bank box) both horizontally and vertically.  
+
+3. <div>  
+What it is: A <div> is a general box or container used to group other elements together.
+
+What it does: It creates the main grey box that holds the balance and the buttons.
+
+What its style does:  
+
+background-color: #908b8f;: Makes the box a specific shade of grey.  
+
+padding: 30px;: Adds 30 pixels of empty space inside the box, so the content isn't touching the edges.  
+
+border-radius: 12px;: Gives the box rounded corners.  
+
+text-align: center;: Centers all the text and buttons inside the box.  
+
+width: 300px;: Sets the box to be 300 pixels wide.  
+
+4. <h1>  
+What it is: The big heading text that shows the amount of money.
+
+What it does: It displays $0.
+
+What its style does:  
+
+color: #00ff00;: Makes the text color a bright green.  
+
+font-size: 28px;: Sets the text to be 28 pixels tall.  
+
+margin-bottom: 20px;: Adds 20 pixels of space below the $0, pushing the buttons down a bit.  
+
+5. <button>  
+What it is: These are clickable buttons.
+
+What they do: One says "Deposit" and the other says "Withdraw." Right now they don't do anything when clicked, but they are designed to look like real buttons.
+
+What their style does:  
+
+background-color: Sets the green (#00ff00) and red (#ff0000) background colors.  
+
+color: white;: Makes the text on the buttons white.  
+
+padding: 12px;: Adds space inside the buttons to make them look bigger and easier to click.  
+
+width: 100%;: Makes the buttons stretch to fill the full width of the grey box they are in.  
+
+border: none;: Removes the default border that browsers sometimes add to buttons.  
+
+cursor: pointer;: Changes the mouse cursor to a pointing hand when you hover over the buttons, indicating that they are clickable.  
