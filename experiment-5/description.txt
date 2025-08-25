@@ -1,4 +1,4 @@
-PRODUCT FILTER TEST CASES & VALIDATIONS
+ 
 
 1. FEATURE: Category Filter
 Requirement: Dropdown selection is required to filter products.
