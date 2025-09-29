@@ -1,0 +1,36 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 200px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #bfadad;
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+}
+
+button {
+  background: #ff4d4d;
+  color: rgb(230, 0, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+button:hover {
+  background: #656262;
+  
+}
